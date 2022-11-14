@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: rgb(197, 197, 243);
+    margin: 0;
+    padding: 0;
+
+}
+div {
+    background-color: white;
+    width: 21%;
+    height: 430px;
+    margin: 100px auto;
+    border:1px solid white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+img{
+    width: 100%;
+    border-radius: 15px;
+}
+div h3{
+    padding-top: 20px;
+    line-height: 23px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    
+}
+div p{
+    padding-top: 15px;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.4;
+    font-size: 15px;
+}
+@media (max-width:958px) and (min-width:270) {
+   div{
+    width: 55%;
+    height: 400px;
+   } 
+}
